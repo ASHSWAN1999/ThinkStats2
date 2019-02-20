@@ -1,4 +1,4 @@
-#Time, Age and Cohort Effects of Happiness in Marriage 
+# Time, Age and Cohort Effects of Happiness in Marriage 
 
 Ashley Swanson
 
