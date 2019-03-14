@@ -43,7 +43,7 @@ _Figure 4: Happiness in Marriage vs Age: Over 42_
 ![Minion](https://github.com/ASHSWAN1999/ThinkStats2/blob/master/project1/fig4.png)
 
 
-The upward trend past 42 has a smaller effect size of about 0.2% per year. So, over the course of 4 decades, there is an 8% increase in happiness levels compared to those at age 42. While this growth rate is about half the size of the decay rate before age 42, it is sustained for over 40 years, causing total happiness levels to nearly rebound from the negative effects of the first 20 years. The rsqaured value, 0.424, indicates that age becomes a more substantial indicator of marital happiness beyond the early 40’s.
+The upward trend past 42 has a smaller effect size of about 0.2% per year. So, over the course of 4 decades, there is an 8% increase in happiness levels compared to those at age 42. While this growth rate is about half the size of the decay rate before age 42, it is sustained for over 40 years, causing total happiness levels to nearly rebound from the negative effects of the first 20 years. The rsquared value, 0.424, indicates that age becomes a more substantial indicator of marital happiness beyond the early 40’s.
 
 The downfall of this model is that 60-year-olds surveyed in 2018 are lumped in with 60-year-olds surveyed in 1971, and these people may have had very different experience with marriage than their predecessors. One way to get at this is by examining marital contentedness based on the year people were born, known as their cohort. This helps to reveal generational trends. 
 
