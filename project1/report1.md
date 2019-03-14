@@ -13,7 +13,7 @@ Let’s start by examining the general trend of happiness over time. I will be e
 
 Across the entire dataset, 63% of people said they were very happy, 34% said pretty happy, and 3% said not too happy. Accordingly, we will plot year against the percentage of people survey in that year that marked “very happy”. Here’s the plot.
 
-_Figure 1: Happiness in Marriage Over Time_
+-:- _Figure 1: Happiness in Marriage Over Time_ -:-
 
 ![Minion](https://github.com/ASHSWAN1999/ThinkStats2/blob/master/project1/fig1.png)
 
