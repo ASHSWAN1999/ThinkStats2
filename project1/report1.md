@@ -60,3 +60,10 @@ _Figure 6: Happiness in Marriage vs Cohort: Quadratic Fit_
 
 
 Visually, the quadratic model explains the relationship between cohort and happiness in marriage very well. The effect size has a heavy overall downward trend of -19.9% per year and a quadratic coefficient of 0.005% per year. In human terms this means that those born in 1900 reported happiness levels 13.3% higher than those born in 1950. After 1950, percentages started slowly climbing again, rebounding by about 10.5% by 2000. An rsquared value of 0.444 tells us that the year one was born has the most explanatory power among time, age, and cohort.
+
+## Summary
+
+As far as effect size goes, age, specifically for respondents 42 and under, is the largest contributor to changes in marital happiness, with a negative trend of -0.45% per year. However, after 42, this change over time becomes less substantial at 0.20% per year. Interestingly, our analysis tells us that 90-year-old couples are nearly as happy as 20-year-old couples, with those in their early 40’s suffering the lowest rates of marital happiness. This means there is hope if your 40’s aren’t going well! Or the upward trend might reflect divorces of unhappy couples. But that's a question for another day. 
+
+Less than half a percentage point might not seem like much, but when a trend persists for decades, it can have a notable effect on populations. Over the two decades of happiness decline in respondents 42 and under, the total change was about 10%. This is certainly large enough to consider and an interesting trend in terms of life cycles of relationships, but is not so large as to guarantee unhappiness with your partner in your 40’s. 
+
