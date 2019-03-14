@@ -13,9 +13,9 @@ _Taking things all together, how would you describe your marriage? Would you say
 
 Across the entire dataset, 63% of people said they were very happy, 34% said pretty happy, and 3% said not too happy. Accordingly, we will plot year against the percentage of people survey in that year that marked “very happy”. Here’s the plot.
 
-_Figure 1: Happiness in Marriage Over Time_
+>_Figure 1: Happiness in Marriage Over Time_
 
-![Minion](https://github.com/ASHSWAN1999/ThinkStats2/blob/master/project1/fig1.png)
+>![Minion](https://github.com/ASHSWAN1999/ThinkStats2/blob/master/project1/fig1.png)
 
 
 This model shows a statistically significant negative trend, with a pvalue under 0.01. The effect size is quite small given that the percentage of reported happy marriages decreases by 0.13% per year. This means that over the course of 30 years, reported happiness levels have decreased by about 4%. An rsquared value of 0.367 tells us that roughly a third of the effect on marital happiness can be explained by the year in which a respondent answered.  
