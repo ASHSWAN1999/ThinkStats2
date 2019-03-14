@@ -2,7 +2,6 @@
 
 ### By Ashley Swanson
 
-___
 
 In the past hundred years, countless variables have changed surrounding the attitudes, frequencies, and constructs of marriage. So, what does this mean for happiness levels of marriages throughout time? 
 
