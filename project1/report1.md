@@ -3,7 +3,7 @@
 ### By Ashley Swanson
 
 
-In the past hundred years, countless variables have changed surrounding the attitudes, frequencies, and constructs of marriage. So, what does this mean for happiness levels of marriages throughout time? 
+In the past hundred years, many variables have changed surrounding the attitudes, frequencies, and constructs of marriage. So, what does this mean for happiness levels of marriages throughout time? 
 
 With higher divorce rates in recent years, we might expect there to be higher rates of happiness among those that remain married. The legalization of gay marriage may also add to an upward trend in marriage happiness, along with first marriages happening later in life, which may imply that individuals are putting more thought into compatibility. Alternatively, lower rates of marriage over time could indicate a growing negative climate towards marriage, reflected in lower levels of happiness. And gender roles have shifted dramatically over the decades, which could have had any number of effects. To observe the cumulative results of all of these changes, we can use data analysis to gather insight on trends in marital happiness. 
 
@@ -11,7 +11,7 @@ Let’s start by examining the general trend of happiness over time. I will be e
 
 >Taking things all together, how would you describe your marriage? Would you say that your marriage is very happy, pretty happy, or not too happy?
 
-Across the entire dataset, 63% of people said they were very happy, 34% said pretty happy, and 3% said not too happy. Accordingly, we will plot year against the percentage of people survey in that year that marked “very happy”. Here’s the plot.
+Across the entire dataset, 63% of people said they were very happy, 34% said pretty happy, and 3% said not too happy. Accordingly, we will plot year against the percentage of people surveyed in that year that marked “very happy”. Here’s the plot.
 
 _Figure 1: Happiness in Marriage Over Time_
 
@@ -22,7 +22,7 @@ This model shows a statistically significant negative trend, with a pvalue under
 
 So clearly there is a trend present over time, but it truthfully isn’t hugely impactful. However, there are other factors that can vary with time that might affect marital contentedness, such as the age of a respondent when they answer the question. 
 
-As people go through life, they have different experiences that might improve or deteriorate their relationships. For example, the honeymoon phase is much less strenuous than a couple that has three kids they have to look after. Couples may be prior to getting a promotion at work that sucks up their spare time. Of course these timelines vary for everybody, and not every couple shares the same experiences. But analyzing the percentage of reported “very happy” marriages against the ages of the respondents seems like a good way of identifying trends. 
+As people go through life, they have different experiences that might improve or deteriorate their relationships. For example, the honeymoon phase is much less strenuous than a couple that has three kids they have to look after. Couples may be happier prior to getting a promotion at work that sucks up their spare time. Of course these timelines vary for everybody, and not every couple shares the same experiences. But analyzing the percentage of reported “very happy” marriages against the ages of the respondents seems like a good way of identifying trends. 
 
 _Figure 2: Happiness in Marriage vs Age_
 
@@ -43,7 +43,7 @@ _Figure 4: Happiness in Marriage vs Age: Over 42_
 ![Minion](https://github.com/ASHSWAN1999/ThinkStats2/blob/master/project1/fig4.png)
 
 
-The upward trend past 42 has a smaller effect size of about 0.2% per year. So, over the course of 4 decades, there is an 8% increase in happiness levels compared to those at age 42. While this growth rate is about half the size of the decay rate before age 42, it is sustained for over 40 years, causing total happiness levels to nearly rebound from the negative effects of the first 20 years. The rsqaured value, 0.424, indicates that age becomes a more substantial indicator of marital happiness beyond early 40’s.
+The upward trend past 42 has a smaller effect size of about 0.2% per year. So, over the course of 4 decades, there is an 8% increase in happiness levels compared to those at age 42. While this growth rate is about half the size of the decay rate before age 42, it is sustained for over 40 years, causing total happiness levels to nearly rebound from the negative effects of the first 20 years. The rsquared value, 0.424, indicates that age becomes a more substantial indicator of marital happiness beyond the early 40’s.
 
 The downfall of this model is that 60-year-olds surveyed in 2018 are lumped in with 60-year-olds surveyed in 1971, and these people may have had very different experience with marriage than their predecessors. One way to get at this is by examining marital contentedness based on the year people were born, known as their cohort. This helps to reveal generational trends. 
 
@@ -63,7 +63,10 @@ Visually, the quadratic model explains the relationship between cohort and happi
 
 ## Summary
 
-As far as effect size goes, age, specifically for respondents 42 and under, is the largest contributor to changes in marital happiness, with a negative trend of -0.45% per year. However, after 42, this change over time becomes less substantial at 0.20% per year. Interestingly, our analysis tells us that 90-year-old couples are nearly as happy as 20-year-old couples, with those in their early 40’s suffering the lowest rates of marital happiness. This means there is hope if your 40’s aren’t going well! Or the upward trend might reflect divorces of unhappy couples. But that's a question for another day. 
+As far as effect size goes, age, specifically for respondents 42 and under, is the largest contributor to changes in marital happiness, with a negative trend of -0.45% per year. However, after 42, this change over time becomes less substantial at 0.20% per year. Interestingly, our analysis tells us that 90-year-old couples are nearly as happy as 20-year-old couples, with those in their early 40’s suffering the lowest rates of marital happiness. This means there is hope if your 40’s aren’t going well! Or the upward trend might reflect the divorces of unhappy couples. But that's a question for another day. 
 
 Less than half a percentage point might not seem like much, but when a trend persists for decades, it can have a notable effect on populations. Over the two decades of happiness decline in respondents 42 and under, the total change was about 10%. This is certainly large enough to consider and an interesting trend in terms of life cycles of relationships, but is not so large as to guarantee unhappiness with your partner in your 40’s. 
+
+Similarly, the cohort effects apparent in Figure 6 illuminate a trend where those born in the 1950’s report notably lower rates of happy marriages than those born closer to 1900 or 2000. This observation likely encapsulates our society’s shifting views towards marriage, but a change of 13.3 percent over half a century tells us that changes from decade to decade are relatively insubstantial in terms of the felt effect on individuals. 
+
 
